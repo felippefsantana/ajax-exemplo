@@ -1,0 +1,17 @@
+{
+    "name": "felippe/ajax",
+    "description": "Exemplo de AJAX",
+    "authors": [
+        {
+            "name": "Felippe Fernandes",
+            "email": "felippefsantana02@gmail.com"
+        }
+    ],
+    "autoload": {
+
+        "psr-4": {
+            "app\\":"app"
+        }
+
+    }
+}
