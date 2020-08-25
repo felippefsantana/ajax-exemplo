@@ -25,5 +25,5 @@ create table cidade(
     foreign key(estado) references estado(id_estado)
 )  default charset = utf8;
 
-#OBS:
+# OBS:
 Para usar executar a aplicação para ver os usuarios cadastrados e/ou as cidades de acordo com o estado escolhido, vá até o arquivo public/index.php e descomente a linha 103 e comente a linha 102, e vice-versa. A aplicação não retorna os dois códigos devido aos dois usarem a função onload do JavaScript. Caso deseje, você pode deixar a linha 103 comentada e descomentar as linhas 132 a 161 no arquivo public/assets/user.js para a aplicação retornar tudo.
